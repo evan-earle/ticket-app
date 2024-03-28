@@ -1,5 +1,13 @@
+import DeleteBlock from "./DeleteBlock";
+import PriorityDisplay from "./PriorityDisplay";
+
 const TicketCard = () => {
-  return <div>TicketCard</div>;
+  return (
+    <div>
+      <DeleteBlock />
+      <PriorityDisplay />
+    </div>
+  );
 };
 
 export default TicketCard;
